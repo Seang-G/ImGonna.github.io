@@ -1,0 +1,115 @@
+body {
+    color:rgb(228, 230, 231);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+input {
+    pointer-events: stroke;
+}
+
+button {
+    pointer-events: stroke;
+}
+
+input {
+    position: relative;
+    width:5rem;
+    height: 2rem;
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0, 0);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(228, 230, 231);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+input:focus {
+    color:rgb(228, 230, 231);
+    width:50%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    outline: 0;
+}
+
+input::placeholder {
+    color:rgb(228, 230, 231, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-pointer {
+    pointer-events: none;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+#background-cover {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+#weather {
+    position: absolute;
+    top: 1rem;
+    right: 10%;
+    font-size: 2rem;
+}
+
+#clock {
+    font-size: 6rem;
+    margin-top: 8rem;
+}
+
+#quote {
+    font-size: 1.3rem;
+}
+
+#login-form {
+    margin-bottom: 2rem;
+}
+
+#greeting {
+    font-size: 3rem;
+    color:rgb(191, 213, 246);
+}
+
+#todo-form {
+    margin-bottom: 1rem;
+}
+
+#todo-list {
+    position: relative;
+    left: 30%;
+    font-size: 2rem;
+    color:rgb(251, 222, 231);
+}
+
+#todo-list li button {
+    position: fixed;
+    right: 30%;
+    background: none;
+}
